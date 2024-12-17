@@ -35,6 +35,9 @@ This is the backend application for the **Travel Agency Booking System**. It pro
 - **Other Tools**: Mongoose (for MongoDB modeling), CORS, dotenv (for environment variable management)
 
 ---
+### Deployed-Link
+Backend: [Travel Agency Backend](https://travel-agency-backend-production.up.railway.app/api)
+
 
 ## Setup and Installation
 
@@ -96,6 +99,3 @@ Bookings
 POST /api/bookings: Submit a package booking.
 GET /api/admin/bookings: Retrieve all bookings (Admin only).
 ---
-### Deployed-Link
-Backend: [Travel Agency Backend](https://travel-agency-backend-production.up.railway.app/api)
-
