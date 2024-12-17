@@ -48,7 +48,6 @@ To run the backend locally, follow these steps:
 Install dependencies:
 
  ```bash
-
 npm install
 
 Set up environment variables: Create a .env file in the root directory and add the following variables:
@@ -75,7 +74,7 @@ npm run dev
 This uses nodemon for hot reloading.
 
 
-Available Scripts
+###Available Scripts
 In the project directory, you can run:
 
 npm start: Starts the backend server.
@@ -84,7 +83,9 @@ npm run dev: Starts the server in development mode using nodemon.
 API Endpoints
 Here are the key API endpoints provided by the backend:
 
-Packages
+
+
+###Packages
 GET /api/packages: Retrieve all tour packages.
 GET /api/packages/:id: Retrieve details of a specific package.
 POST /api/admin/packages: Add a new package (Admin only).
@@ -94,6 +95,6 @@ Bookings
 POST /api/bookings: Submit a package booking.
 GET /api/admin/bookings: Retrieve all bookings (Admin only).
 
-
+###Deployed Link
 Backend: [Travel Agency Backend](https://travel-agency-backend-production.up.railway.app/api)
-Deployed Link
+
