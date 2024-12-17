@@ -44,15 +44,16 @@ To run the backend locally, follow these steps:
    ```bash
    git clone https://github.com/NileshEdake/travelAgency-backend.git
    cd travel-agency-backend
-
+---
 Install dependencies:
 
  ```bash
 npm install
-
+---
 Set up environment variables: Create a .env file in the root directory and add the following variables:
 
 env
+
  ```bash
 PORT=5000
 MONGO_URI=<your-mongodb-connection-string>
@@ -64,7 +65,7 @@ Run the server:
 npm start
 
 The server will start on http://localhost:5000.
-
+---
 
 Run in development mode:
 
@@ -73,7 +74,7 @@ Run in development mode:
 npm run dev
 This uses nodemon for hot reloading.
 
-
+---
 ###Available Scripts
 In the project directory, you can run:
 
@@ -84,7 +85,7 @@ API Endpoints
 Here are the key API endpoints provided by the backend:
 
 
-
+---
 ###Packages
 GET /api/packages: Retrieve all tour packages.
 GET /api/packages/:id: Retrieve details of a specific package.
@@ -94,7 +95,7 @@ DELETE /api/admin/packages/:id: Delete a package (Admin only).
 Bookings
 POST /api/bookings: Submit a package booking.
 GET /api/admin/bookings: Retrieve all bookings (Admin only).
-
+---
 ###Deployed Link
 Backend: [Travel Agency Backend](https://travel-agency-backend-production.up.railway.app/api)
 
