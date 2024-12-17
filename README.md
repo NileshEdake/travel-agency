@@ -96,6 +96,6 @@ Bookings
 POST /api/bookings: Submit a package booking.
 GET /api/admin/bookings: Retrieve all bookings (Admin only).
 ---
-###Deployed Link
+### Deployed-Link
 Backend: [Travel Agency Backend](https://travel-agency-backend-production.up.railway.app/api)
 
